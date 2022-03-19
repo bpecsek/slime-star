@@ -24,7 +24,7 @@ This is a SLIME fork that comes with some extra contribs pre-installed:
 - [SLIME Doc Contribs](https://github.com/mmontone/slime-doc-contribs)
 - [Quicklisp Systems](https://github.com/mmontone/quicklisp-systems)
 - Quicksearch utility
-- [Slime Breakpoints](https://github.com/mmontone/slime-breakpoints)
+- [SLIME Breakpoints](https://github.com/mmontone/slime-breakpoints)
 - [Slite](https://github.com/tdrhq/slite/)
 
 Also may add some custom utilities and menus.
@@ -53,7 +53,7 @@ In your `.emacs`:
 Install some dependencies from Quicklisp:
 
 ```lisp
-(ql:quickload '(:asdf :alexandria :drakma :dexador))
+(ql:quickload '(:asdf :alexandria :drakma :dexador :fiveam))
 ```
 
 Use `M-x slime` to fire up and connect to an inferior Lisp. SLIME will now automatically be available in your Lisp source buffers.
