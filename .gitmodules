@@ -1,0 +1,18 @@
+[submodule "contrib/quicklisp-systems"]
+	path = contrib/quicklisp-systems
+	url = git@github.com:mmontone/quicklisp-systems.git
+[submodule "contrib/lisp-system-browser"]
+	path = contrib/lisp-system-browser
+	url = git@github.com:mmontone/lisp-system-browser.git
+[submodule "contrib/slime-doc-contribs"]
+	path = contrib/slime-doc-contribs
+	url = git@github.com:mmontone/slime-doc-contribs.git
+[submodule "contrib/slime-breakpoints"]
+	path = contrib/slime-breakpoints
+	url = git@github.com:mmontone/slime-breakpoints.git
+[submodule "contrib/slite"]
+	path = contrib/slite
+	url = https://github.com/tdrhq/slite.git
+[submodule "contrib/cl-def-properties"]
+	path = contrib/cl-def-properties
+	url = git@github.com:mmontone/cl-def-properties.git
