@@ -36,43 +36,36 @@ Troubleshooting
 Quick setup instructions
 ------------------------
 
-  1. [Set up the MELPA repository][2], if you haven't already, and install
-     SLIME using `M-x package-install RET slime RET`.
+Clone this repository using --recursive option (this repo has git submodules):
 
-  2. In your `~/.emacs` file, point the `inferior-lisp-program`
-     variable to your favourite Common Lisp implementation:
+```
+git clone --recursive 
+```
 
-     ```el
-     (setq inferior-lisp-program "sbcl")
-     ```
+In your `.emacs`:
 
-  3. Use `M-x slime` to fire up and connect to an inferior Lisp. SLIME will
-     now automatically be available in your Lisp source buffers.
+```elisp
+;; Setup load-path, autoloads and your lisp system
+;; Not needed if you install SLIME via MELPA
+(add-to-list 'load-path "~/dir/to/cloned/slime-star")
+(require 'slime-autoloads)
+(setq inferior-lisp-program "/opt/sbcl/bin/sbcl")
+;; Add slime-star to slime-contribs:
+(setq slime-contribs '(slime-fancy slime-star))
+```
 
-If you'd like to contribute to SLIME, you will want to instead follow
-the manual's instructions on [how to install SLIME via Git][7].
+Install some dependencies from Quicklisp:
 
+```lisp
+(ql:quickload '(:asdf :alexandria :drakma :dexador))
+```
+
+Use `M-x slime` to fire up and connect to an inferior Lisp. SLIME will now automatically be available in your Lisp source buffers.
 
 License
 -------
 
-SLIME is free software. All files, unless explicitly stated otherwise, are
-public domain.
-
-
-Contact
--------
-
-If you have problems, first have a look at the list of
-[known issues and workarounds][6]. 
-
-Questions and comments are best directed to the mailing list at
-`slime-devel@common-lisp.net`, but you have to [subscribe][3] first.
-
-See the [CONTRIBUTING.md][5] file for instructions on how to contribute.
-
-
-
+SLIME and SLIME-STAR are free software. All files, unless explicitly stated otherwise, are public domain.
 
 [1]: http://common-lisp.net/project/slime/doc/html/
 [2]: http://melpa.org/#/getting-started
