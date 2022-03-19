@@ -28,7 +28,7 @@
   "SLIME with extra extensions preinstalled."
   (:authors "Mariano Montone")
   (:license "GPL")
-  (:slime-dependencies quicklisp-systems slime-help system-browser slime-breakpoints)
+  (:slime-dependencies quicklisp-systems slime-help system-browser slime-breakpoints slime-slite)
   (:swank-dependencies slime-star)
   (:on-load
    ;; setup key bindings

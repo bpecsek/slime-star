@@ -25,6 +25,7 @@ This is a SLIME fork that comes with some extra contribs pre-installed:
 - [Quicklisp Systems](https://github.com/mmontone/quicklisp-systems)
 - Quicksearch utility
 - [Slime Breakpoints](https://github.com/mmontone/slime-breakpoints)
+- [Slite](https://github.com/tdrhq/slite/)
 
 Also may add some custom utilities and menus.
 
