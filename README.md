@@ -15,6 +15,24 @@ Lisp process for compilation, debugging, documentation lookup, and so on.
 For much more information, consult [the manual][1].
 
 
+SLIME-STAR
+----------
+
+This is a SLIME fork that comes with some extra contribs pre-installed:
+
+- [Lisp System Browser](https://github.com/mmontone/lisp-system-browser)
+- [SLIME Doc Contribs](https://github.com/mmontone/slime-doc-contribs)
+- [Quicklisp Systems](https://github.com/mmontone/quicklisp-systems)
+- Quicksearch utility
+- [Slime Breakpoints](https://github.com/mmontone/slime-breakpoints)
+
+Also may add some custom utilities and menus.
+
+Troubleshooting
+---------------
+
+`(ql:uninstall :swank)`
+
 Quick setup instructions
 ------------------------
 
