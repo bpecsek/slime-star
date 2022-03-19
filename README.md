@@ -28,18 +28,13 @@ This is a SLIME fork that comes with some extra contribs pre-installed:
 
 Also may add some custom utilities and menus.
 
-Troubleshooting
----------------
-
-`(ql:uninstall :swank)`
-
 Quick setup instructions
 ------------------------
 
 Clone this repository using --recursive option (this repo has git submodules):
 
 ```
-git clone --recursive 
+git clone --recursive https://github.com/mmontone/slime-star.git
 ```
 
 In your `.emacs`:
@@ -61,6 +56,11 @@ Install some dependencies from Quicklisp:
 ```
 
 Use `M-x slime` to fire up and connect to an inferior Lisp. SLIME will now automatically be available in your Lisp source buffers.
+
+Troubleshooting
+---------------
+
+`(ql:uninstall :swank)`
 
 License
 -------
