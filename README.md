@@ -42,6 +42,12 @@ Clone this repository using --recursive option (this repo has git submodules):
 git clone --recursive https://github.com/mmontone/slime-star.git
 ```
 
+Install some dependencies from Quicklisp:
+
+```lisp
+(ql:quickload '(:asdf :alexandria :anaphora :drakma :dexador :fiveam :closer-mop :iterate :do-urlencode :yason :html-entities :slite))
+```
+
 In your `.emacs`:
 
 ```elisp
@@ -52,12 +58,6 @@ In your `.emacs`:
 (setq inferior-lisp-program "/opt/sbcl/bin/sbcl")
 ;; Add slime-star to slime-contribs:
 (setq slime-contribs '(slime-fancy slime-star))
-```
-
-Install some dependencies from Quicklisp:
-
-```lisp
-(ql:quickload '(:asdf :alexandria :drakma :dexador :fiveam))
 ```
 
 Use `M-x slime` to fire up and connect to an inferior Lisp. SLIME will now automatically be available in your Lisp source buffers.
