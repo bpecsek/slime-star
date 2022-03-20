@@ -1,6 +1,8 @@
 [![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)
 [![MELPA](http://melpa.org/packages/slime-badge.svg?)](http://melpa.org/#/slime) [![MELPA Stable](http://stable.melpa.org/packages/slime-badge.svg?)](http://stable.melpa.org/#/slime)
 
+# SLIME ⭐
+
 Overview
 --------
 
@@ -15,8 +17,8 @@ Lisp process for compilation, debugging, documentation lookup, and so on.
 For much more information, consult [the manual][1].
 
 
-SLIME-STAR
-----------
+About this fork
+---------------
 
 This is a SLIME fork that comes with some extra contribs pre-installed:
 
@@ -31,6 +33,8 @@ Also may add some custom utilities and menus.
 
 Quick setup instructions
 ------------------------
+
+⚠️ **This is not ready for public use as yet**
 
 Clone this repository using --recursive option (this repo has git submodules):
 
@@ -57,11 +61,6 @@ Install some dependencies from Quicklisp:
 ```
 
 Use `M-x slime` to fire up and connect to an inferior Lisp. SLIME will now automatically be available in your Lisp source buffers.
-
-Troubleshooting
----------------
-
-`(ql:uninstall :swank)`
 
 License
 -------
