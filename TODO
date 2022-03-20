@@ -3,4 +3,5 @@
 - Implement Threads extension. Buffer with threads. Status, destroy, etc.
 - Consider adding log4cl (has SLIME extension).
 - Rewrite Slite package. Fix it. Implement menu. Make command that receives a TestSuite name, and runs it. Buffer with list of available Test suites. Run from there.
+- Consider integrating slime-actions?
 - Test environment using Docker.
