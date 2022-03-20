@@ -23,7 +23,7 @@ This is a SLIME fork that comes with some extra contribs pre-installed:
 - [Lisp System Browser](https://github.com/mmontone/lisp-system-browser)
 - [SLIME Doc Contribs](https://github.com/mmontone/slime-doc-contribs)
 - [Quicklisp Systems](https://github.com/mmontone/quicklisp-systems)
-- Quicksearch utility
+- [Quicksearch utility](https://github.com/tkych/quicksearch)
 - [SLIME Breakpoints](https://github.com/mmontone/slime-breakpoints)
 - [Slite](https://github.com/tdrhq/slite/)
 
