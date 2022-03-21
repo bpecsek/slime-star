@@ -14,15 +14,12 @@
   )
 
 (defun slime-star--setup-menus ()
-  (easy-menu-add-item 'menubar-slime nil "Tools" "Documentation")
-  (easy-menu-add-item 'menubar-slime '("Tools")
-		      ["System Browser" lisp-system-browser])
-
-  (easy-menu-add-item 'menubar-slime '("Tools")
-		      ["Quicklisp Systems" quicklisp-systems])
-
-  (easy-menu-add-item 'menubar-slime '("Tools")
-		      ["Quicksearch" quicksearch]))
+  (easy-menu-add-item 'menubar-slime nil
+		      '("Tools"
+			["System Browser" lisp-system-browser]
+			["Quicklisp Systems" quicklisp-systems]
+			["Quicksearch" quicksearch])
+		      "Documentation"))
 
 (define-slime-contrib slime-star
   "SLIME with extra extensions preinstalled."
