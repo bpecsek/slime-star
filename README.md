@@ -1,6 +1,3 @@
-[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)
-[![MELPA](http://melpa.org/packages/slime-badge.svg?)](http://melpa.org/#/slime) [![MELPA Stable](http://stable.melpa.org/packages/slime-badge.svg?)](http://stable.melpa.org/#/slime)
-
 # SLIME ⭐
 
 Overview
@@ -29,10 +26,10 @@ This is a SLIME fork that comes with some extra contribs pre-installed:
 - [SLIME Breakpoints](https://github.com/mmontone/slime-breakpoints)
 - [Slite](https://github.com/tdrhq/slite/)
 
-Also may add some custom utilities and menus.
+May also add some custom utilities and menus.
 
-Quick setup instructions
-------------------------
+Install
+-------
 
 ⚠️ **This is ALPHA software**
 
@@ -65,7 +62,7 @@ Use `M-x slime` to fire up and connect to an inferior Lisp. SLIME will now autom
 License
 -------
 
-SLIME and SLIME-STAR are free software. All files, unless explicitly stated otherwise, are public domain.
+SLIME and SLIME :star: are free software. All files, unless explicitly stated otherwise, are public domain.
 
 [1]: http://common-lisp.net/project/slime/doc/html/
 [2]: http://melpa.org/#/getting-started
