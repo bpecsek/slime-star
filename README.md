@@ -49,7 +49,6 @@ In your `.emacs`:
 
 ```elisp
 ;; Setup load-path, autoloads and your lisp system
-;; Not needed if you install SLIME via MELPA
 (add-to-list 'load-path "~/dir/to/cloned/slime-star")
 (require 'slime-autoloads)
 (setq inferior-lisp-program "/opt/sbcl/bin/sbcl")
