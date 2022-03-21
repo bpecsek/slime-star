@@ -34,7 +34,7 @@ Also may add some custom utilities and menus.
 Quick setup instructions
 ------------------------
 
-⚠️ **This is not ready for public use as yet**
+⚠️ **This is ALPHA software**
 
 Clone this repository using --recursive option (this repo has git submodules):
 
