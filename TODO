@@ -1,7 +1,7 @@
-- window-layout.el is a dependency of lisp-system-browser. add.
 - Implement a Hunchentoot extension. Buffer lists acceptors. Start/stop, navigate to, etc.
 - Implement Threads extension. Buffer with threads. Status, destroy, etc.
 - Consider adding log4cl (has SLIME extension).
 - Rewrite Slite package. Fix it. Implement menu. Make command that receives a TestSuite name, and runs it. Buffer with list of available Test suites. Run from there.
 - Consider integrating slime-actions?
+- Consider adding Info manuals of some Lisp libraries and a webinfo like Emacs extension to navigate code -> manual.
 - Test environment using Docker.
